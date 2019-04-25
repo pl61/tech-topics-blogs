@@ -1,2 +1,1 @@
-# tech-topics
-list of tech topics for interviews
+## List of technical topics (mostly javascript) to study ##
