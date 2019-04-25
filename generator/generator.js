@@ -101,7 +101,12 @@ const topics = {
 }
 
 const keys = Object.keys(topics);
-let str = '';
+
+let str =
+`## List of technical topics (mostly javascript) to study ##
+Topic | Links
+-|-
+`;
 
 for (let i = 0; i < keys.length; i += 1) {
   let links = '';
@@ -109,13 +114,13 @@ for (let i = 0; i < keys.length; i += 1) {
 
   if (topic.length) {
     for (let j = 0; j < topic.length; j += 1) {
-      links += ` ([${j + 1}](${topic[j]}))`
+      links += ` [(${j + 1})](${topic[j]})`
     }
   }
 
-  links += '\n\n';
+  links += '\n';
 
-  str += `${keys[i]}${links}`;
+  str += `${keys[i]} | ${links}`;
 }
 
 document.getElementById('output').innerText = str;
