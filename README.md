@@ -68,7 +68,7 @@ OOP | [(1)](https://medium.freecodecamp.org/object-oriented-programming-concepts
 Performance Test |
 Primitive vs Reference |
 Private Variables (JS) |
-Procedural Pprogramming |
+Procedural Programming |
 Programming Paradignms |
 Prototype |
 Pure Functions |
